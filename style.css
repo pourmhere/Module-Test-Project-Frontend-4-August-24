@@ -36,6 +36,11 @@ label {
   margin-top: 10px;
 }
 
+.employee-list {
+  margin-top: 40px;
+  color: #7f7f7f;
+}
+
 main .btn button {
   padding: 15px 55px;
   border: none;
