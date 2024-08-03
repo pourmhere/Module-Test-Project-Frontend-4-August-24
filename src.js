@@ -8,7 +8,7 @@ function addEmployee() {
   const messageElement = document.getElementById("message");
 
   if (!name || !profession || !age) {
-    messageElement.textContent = "Error: Please make sure all fields are filled before adding an employee!";
+    messageElement.textContent = "Error : Please Make sure All fields are filled before adding an employee!";
     messageElement.className = "error";
     return;
   }
