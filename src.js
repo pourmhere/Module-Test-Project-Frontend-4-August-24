@@ -23,7 +23,7 @@ function addEmployee() {
   data.push(employee);
   displaydata();
   console.log(data);
-  messageElement.textContent = "Success: Employee added!";
+  messageElement.textContent = "Success : Employee Added!";
   messageElement.className = "success";
   document.getElementById("formID").reset();
 }
