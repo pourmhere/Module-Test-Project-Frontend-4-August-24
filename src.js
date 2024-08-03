@@ -31,7 +31,7 @@ function addEmployee() {
 function displaydata() {
   const employeeList = document.getElementById("employeeList");
   if (data.length === 0) {
-    employeeList.innerHTML = "You have 0 data.";
+    employeeList.innerHTML = "You have 0 employees.";
     return;
   }
   let singleDataEmp = 1;
