@@ -86,7 +86,7 @@ main .btn button {
 
 .emp-space {
   display: inline-flex;
-  width: 400px;
+  min-width: 500px;
   /* background-color: red; */
   justify-content: space-between;
 }
